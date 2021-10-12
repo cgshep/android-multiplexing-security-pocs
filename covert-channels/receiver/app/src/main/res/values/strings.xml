@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Covert Channel Receiver</string>
+    <string name="target_app">gl.cs.receiver</string>
+    <string-array name="sensorList">
+        <item>Accelerometer</item>
+        <item>Gravity</item>
+        <item>Gyroscope</item>
+        <item>Linear Acceleration</item>
+        <item>Magnetometer</item>
+        <item>Rotation Vector</item>
+    </string-array>
+</resources>

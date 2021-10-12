@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fingerprinting Observer</string>
+    <string name="target_app">gl.cs.observer</string>
+    <string-array name="sensorList">
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Gravity</item>
+        <item>Linear Acceleration</item>
+        <item>Magnetometer</item>
+        <item>Rotation Vector</item>
+    </string-array>
+</resources>

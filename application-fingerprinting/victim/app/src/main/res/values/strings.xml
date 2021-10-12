@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fingerprinting Transmitter</string>
+    <string-array name="transmissionConstants">
+        <item>FASTEST</item>
+        <item>GAME</item>
+        <item>UI</item>
+        <item>NORMAL</item>
+    </string-array>
+    <string-array name="sensorList">
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Gravity</item>
+        <item>Linear Acceleration</item>
+        <item>Magnetometer</item>
+        <item>Rotation Vector</item>
+    </string-array>
+    <string-array name="configList">
+        <item>Custom</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+</resources>
