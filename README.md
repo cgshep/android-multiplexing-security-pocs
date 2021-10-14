@@ -13,11 +13,13 @@ Untested devices may also be vulnerable, but appropriate sampling periods/freque
 
 ## Citation
 
-```@misc{shepherd2021exploiting,
+```
+@misc{shepherd2021exploiting,
       title={Exploiting Sensor Multiplexing for Covert Channels and Application Fingerprinting on Mobile Devices}, 
       author={Carlton Shepherd and Jan Kalbantner and Benjamin Semal and Konstantinos Markantonakis},
       year={2021},
       eprint={2110.06363},
       archivePrefix={arXiv},
       primaryClass={cs.CR}
-}```
+}
+```
