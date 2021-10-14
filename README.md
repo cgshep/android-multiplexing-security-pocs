@@ -1,10 +1,23 @@
-# Android Multiplexing Exploit PoCs
+# Android Sensor Multiplexing PoCs
 
-Accompanying PoCs for the paper titled "Abusing Sensor Multiplexing for Covert Channels and Application Fingerprinting on Mobile Devices".
+Accompanying PoCs for the paper titled ["Exploiting Sensor Multiplexing for Covert Channels and Application Fingerprinting on Mobile Devices"](https://arxiv.org/abs/2110.06363) (arXiv:2110.06363).
 
-Tested on the Google Pixel 4A (Qualcomm SDM730 SnapDragon 730G; Android 11, build RQ2A.210405.005). The PoCs can be modified to support other evaluated devices (e.g. Xiaomi Pocofone) using the sampling frequencies disclosed in the paper's appendices.
+Tested on a Google Pixel 4A (Qualcomm SDM730 SnapDragon 730G; Android 11, build RQ2A.210405.005), but can be modified to support other devices (e.g. Xiaomi Pocofone) using the sampling constants in the paper's appendices.
 
-Untested devices may also be vulnerable, but appropriate frequency rates will need defining.
+Untested devices may also be vulnerable, but appropriate sampling periods/frequencies will need defined.
+
+## Android Studio Projects
 
 - [covert-channels](https://github.com/cgshep/android-multiplexing-security-pocs/covert-channels) 
 - [application-fingerprinting](https://github.com/cgshep/android-multiplexing-security-pocs/application-fingerprinting)
+
+## Citation
+
+```@misc{shepherd2021exploiting,
+      title={Exploiting Sensor Multiplexing for Covert Channels and Application Fingerprinting on Mobile Devices}, 
+      author={Carlton Shepherd and Jan Kalbantner and Benjamin Semal and Konstantinos Markantonakis},
+      year={2021},
+      eprint={2110.06363},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}```
