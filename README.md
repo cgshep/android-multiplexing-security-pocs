@@ -1,6 +1,6 @@
 # Android Sensor Multiplexing PoCs
 
-Accompanying PoCs for the paper titled ["Exploiting Sensor Multiplexing for Covert Channels and Application Fingerprinting on Mobile Devices"](https://arxiv.org/abs/2110.06363) (arXiv:2110.06363).
+Accompanying PoCs for the paper titled ["A side-channel analysis of sensor multiplexing for covert channels and application fingerprinting on mobile devices"](https://arxiv.org/abs/2110.06363) (arXiv:2110.06363).
 
 Tested on a Google Pixel 4A (Qualcomm SDM730 SnapDragon 730G; Android 11, build RQ2A.210405.005), but can be modified to support other devices (e.g. Xiaomi Pocofone) using the sampling constants in the paper's appendices.
 
